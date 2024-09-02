@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* header */
+header{
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 5px;
+    z-index: 2;
+    font-family: "Bebas Neue";
+    background-color: #F5CB00; 
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+header div a{
+    margin-left: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+/*section 1*/
+.section1{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: "Bebas Neue";
+}
+.section1 aside{
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.h2-section1{
+    width: 600px;
+    font-size: 100px;
+    font-weight: 200;
+}
+.text-p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 500px;
+    font-size: 17px;
+    font-family:  "Open Sans";
+}
+.button-readMore{
+    padding: 12px 50px;
+    background-color: #F5CB00;
+    border-radius: none;
+    border: transparent;
+    font-weight: 900;
+}
+
+/* section-1-2 medium */
+.section1-2-medium{
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -150px;
+    right: 350px;
+    z-index: 1;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.5);
+    background-color: rgb(230, 230, 230);
+}
+#space-texts{
+    margin-right: 180px;
+}
+.h2Medium{
+    font-size: 50px;
+    font-weight: 200;
+    color: #F5CB00;
+}
+#text2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    display: flex;
+    font-family:  "Open Sans";
+}
+#transparentBtn{
+    padding: 0px;
+    background-color: transparent;
+}
+#graphs1{
+    display: flex;
+}
+#spaceImg{
+    margin-right: 80px;
+}
+
+/* section2 */
+.section2{
+    padding-top: 300px;
+    padding-bottom: 400px;
+    display: flex;
+    position: relative;
+    font-family: "Bebas Neue";
+    background-color: #F5CB00;
+}
+.section2 aside{
+    margin-left: 210px;
+}
+#p-s2{
+    width: 400px;
+}
+#blackBtn{
+    color: white;
+    background-color: black;
+}
+#img2-position{
+    position: absolute;
+    right: 180px;
+    bottom: 50px;
+}
+
+/* section3 */
+.section3{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue";
+}
+.section3 aside{
+    padding-right: 20px;
+    display: flex;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.5);
+    background-color:  rgb(230, 230, 230);
+}
+#h2-special-Y{
+    font-size: 80px;
+}
+#div-text-s3{
+    margin-top: 30px;
+    margin-right: 80px;
+    padding: 0px 40px;
+}
+.p-s3{
+    margin-bottom: 40px;
+    font-family:  "Open Sans";
+}
+#img1-position{
+    position: absolute;
+    right: 450px;
+    z-index: 1;
+}
+
+/* section4 */
+.section4{
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue";
+    color: white;
+    background-color: black;
+}
+.p-s4{
+    margin-bottom: 20px;
+    width: 800px;
+    font-family: "Open Sans";
+    text-align: center;
+}
+#space-btn{
+    margin-top: 20px;
+}
+
+/* section5 */
+#section5 aside{
+    margin-bottom: 100px;
+}
+
+/* section6 */
+#section6{
+    background-color:  rgb(230, 230, 230);
+}
+#section6 aside{
+    margin-bottom: 50px;
+    flex-direction: row-reverse;
+}
+
+/* section7 */
+#section7 #aside1{
+    margin-bottom: 50px;
+}
+#s7{
+    color: #F5CB00;
+}
+#div7{
+    padding: 50px 30px;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans";
+    color: white;
+    background-color: black;
+}
+#aside7{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+.div7-column{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 5px;
+    font-family:  "Open Sans";
+}
+input{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-color: white;
+    border-style: solid;
+    background-color: transparent;
+    font-family:  "Open Sans";
+}
+.special-input{
+    padding-right: 130px;
+}
+#input-Special{
+    padding-bottom: 150px;
+}
+
+/* section8 */
+#section8{
+    color: black;
+    background-color: #F5CB00;
+}
+#center-h2{
+    text-align: center;
+}
+#map{
+    margin-bottom: 20px;
+}
+
+/* footer */
+footer{
+    padding: 50px 50px;
+    font-family:  "Open Sans";
+    color: #F5CB00;
+    background-color: black;
+}
+footer div a{
+    margin-right: 20px;
+    color: #F5CB00;
+    text-decoration: none;
+}
+#whitelogo{
+   margin-bottom: 80px;
+}
+#aside-F{
+    display: flex;
+}
+.div1-F{
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    margin: 80px 0px;
+}
+.aside-f2{
+    display: flex;
+    justify-content: space-between;
+}
