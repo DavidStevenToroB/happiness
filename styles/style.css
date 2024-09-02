@@ -280,3 +280,86 @@ hr{
     display: flex;
     justify-content: space-between;
 }
+
+/* media */
+@media screen and (max-width: 480px) {
+    /* header */
+    header{
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    header div a{
+        color: transparent;
+    }
+    /* section1 */
+    .section1{
+        padding-left: 5px;
+        justify-content: center;
+    }
+    .h2-section1{
+        width: 350px;
+    }
+    .section1 aside{
+        margin: 0px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text-p{
+        width: 300px;
+    }
+    /* medium */
+    .section1-2-medium{
+        padding-left: 5px;
+        flex-direction: column;
+        position: relative;
+    }
+    #space-texts{
+        margin: 0px;
+    }
+    #spaceImg{
+        margin: 0px;
+    }
+    /* section2 */
+    .section2{
+        padding-left: 5px;
+        padding-bottom: 40px;
+    }
+    .section2 aside{
+        margin: 0px;
+    }
+    .section2 h2{
+        width: 350px;
+    }
+    #p-s2{
+        width: 300px;
+    }
+    /* section3 */
+    .section3{
+        padding: 30px 0px;
+    }
+    .section3 aside{
+        padding: 0px;
+        padding-bottom: 20px;
+        width: 320px;
+        flex-direction: column;
+        box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+    }
+    #div-text-s3{
+        margin-top: 0px;
+        margin-right: 0px;
+        padding: 0px 0px;
+    }
+    .p-s3{
+        width: 280px;
+        margin-bottom: 40px;
+        font-family:  "Open Sans";
+    }
+    #img1-position{
+        margin-top: 10px;
+        position: relative;
+        right: 0px;
+    }
+
+}
