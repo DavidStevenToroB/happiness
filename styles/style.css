@@ -283,6 +283,12 @@ hr{
 
 /* media */
 @media screen and (max-width: 480px) {
+    #mediabtn{
+        margin-left: 80px;
+    }
+    .s-mediabtn{
+        margin-left: 60px;
+    }
     /* header */
     header{
         padding-top: 20px;
@@ -295,11 +301,16 @@ hr{
     }
     /* section1 */
     .section1{
-        padding-left: 5px;
-        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 20px;
+    }
+    #mediabtn{
+        margin-left: 80px;
     }
     .h2-section1{
         width: 350px;
+        text-align: center;
     }
     .section1 aside{
         margin: 0px;
@@ -307,12 +318,14 @@ hr{
         justify-content: center;
     }
     .text-p{
+        margin-left: 30px;
         width: 300px;
+        text-align: center;
     }
     /* medium */
     .section1-2-medium{
-        padding-left: 5px;
         flex-direction: column;
+        flex-wrap: wrap;
         position: relative;
     }
     #space-texts{
@@ -323,8 +336,12 @@ hr{
     }
     /* section2 */
     .section2{
-        padding-left: 5px;
+        margin: 0px;
         padding-bottom: 40px;
+        justify-content: center;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        text-align: center;
     }
     .section2 aside{
         margin: 0px;
@@ -333,14 +350,25 @@ hr{
         width: 350px;
     }
     #p-s2{
+        margin-left: 30px;
         width: 300px;
+    }
+    #img2-position{
+        margin-left: 2.5px;
+        margin-bottom: 20px;
+        max-width: 340px;
+        position: relative;
+        left: 0px;
+        bottom: 0px;
     }
     /* section3 */
     .section3{
-        padding: 30px 0px;
+        padding: -6px;
+        flex-wrap: wrap;
+        text-align: center;
     }
     .section3 aside{
-        padding: 0px;
+        padding: -5px;
         padding-bottom: 20px;
         width: 320px;
         flex-direction: column;
@@ -349,7 +377,7 @@ hr{
     #div-text-s3{
         margin-top: 0px;
         margin-right: 0px;
-        padding: 0px 0px;
+        padding: px;
     }
     .p-s3{
         width: 280px;
@@ -361,5 +389,40 @@ hr{
         position: relative;
         right: 0px;
     }
-
+    /* section4 */
+    .section4 img{
+        max-width: 350px;
+    }
+    .p-s4{
+        max-width: 340px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* section6 */
+    #section6 aside{
+        flex-direction: column;
+    }
+    /* section7 */
+    #div7{
+        padding: 70px 20px;
+        height: 500px;
+        width: 310px;
+        display: flex;
+        flex-direction: column;
+        font-family: "Open Sans";
+        color: white;
+        background-color: black;
+    }
+    #special-input{
+        margin: 0px;
+        padding: 0px;
+    }
+    input{
+        margin: 0px;
+        padding-left: 0px;
+    }
+    #s7{
+        color: #F5CB00;
+        font-size: 70px;
+    }
 }
