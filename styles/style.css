@@ -287,7 +287,7 @@ hr{
         margin-left: 80px;
     }
     .s-mediabtn{
-        margin-left: 60px;
+        margin-left: 10px;
     }
     /* header */
     header{
@@ -324,15 +324,26 @@ hr{
     }
     /* medium */
     .section1-2-medium{
+        margin: 10px 0px;
+        margin-left: 5px;
+        padding: 20px 20px;
+        width: 300px;
         flex-direction: column;
         flex-wrap: wrap;
         position: relative;
+        right: 0px;
+        bottom: 0px;
     }
     #space-texts{
         margin: 0px;
     }
     #spaceImg{
         margin: 0px;
+        margin-bottom: 10px;
+    }
+    #graphs1{
+        width: 150px;
+        flex-direction: column;
     }
     /* section2 */
     .section2{
@@ -349,8 +360,12 @@ hr{
     .section2 h2{
         width: 350px;
     }
+    #h2-special-Y{
+        margin-left: 10px;
+        font-size: 80px;
+    }
     #p-s2{
-        margin-left: 30px;
+        margin-left: 20px;
         width: 300px;
     }
     #img2-position{
@@ -363,21 +378,20 @@ hr{
     }
     /* section3 */
     .section3{
-        padding: -6px;
         flex-wrap: wrap;
-        text-align: center;
+        
     }
     .section3 aside{
-        padding: -5px;
         padding-bottom: 20px;
         width: 320px;
         flex-direction: column;
         box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+        text-align: center;
     }
     #div-text-s3{
         margin-top: 0px;
         margin-right: 0px;
-        padding: px;
+        padding: 0px;
     }
     .p-s3{
         width: 280px;
