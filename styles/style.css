@@ -304,7 +304,6 @@ hr{
         padding: 0px;
         margin: 0px;
         margin-top: 20px;
-        align-items: center;
     }
     #mediabtn{
         margin-left: 80px;
@@ -326,13 +325,12 @@ hr{
     /* medium */
     .section1-2-medium{
         margin: 10px 0px;
-        margin-left: 5px;
         padding: 20px 20px;
         width: 300px;
         flex-direction: column;
         flex-wrap: wrap;
         position: relative;
-        right: -100px;
+        right: 0px;
         bottom: 0px;
     }
     #space-texts{
@@ -353,6 +351,7 @@ hr{
         justify-content: center;
         flex-direction: column-reverse;
         flex-wrap: wrap;
+        align-items: center;
         text-align: center;
     }
     .section2 aside{
@@ -362,15 +361,16 @@ hr{
         width: 350px;
     }
     #h2-special-Y{
-        margin-left: 10px;
+        margin-left: 0px;
         font-size: 80px;
     }
     #p-s2{
-        margin-left: 20px;
+        margin-left: 0px;
         width: 300px;
+        justify-content: center;
     }
     #img2-position{
-        margin-left: 2.5px;
+        margin-left: 0px;
         margin-bottom: 20px;
         max-width: 340px;
         position: relative;
@@ -378,11 +378,8 @@ hr{
         bottom: 0px;
     }
     /* section3 */
-    .section3{
-        flex-wrap: wrap;
-        
-    }
     .section3 aside{
+        padding: 0px 10px;
         padding-bottom: 20px;
         width: 320px;
         flex-direction: column;
@@ -418,10 +415,13 @@ hr{
         flex-direction: column;
     }
     /* section7 */
+    #section7{
+        padding: 0px 10px;
+    }
     #div7{
         padding: 70px 20px;
         height: 500px;
-        width: 310px;
+        width: 312px;
         display: flex;
         flex-direction: column;
         font-family: "Open Sans";
@@ -440,4 +440,5 @@ hr{
         color: #F5CB00;
         font-size: 70px;
     }
+    /* section8 */
 }
