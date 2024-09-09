@@ -304,6 +304,7 @@ hr{
         padding: 0px;
         margin: 0px;
         margin-top: 20px;
+        align-items: center;
     }
     #mediabtn{
         margin-left: 80px;
@@ -331,7 +332,7 @@ hr{
         flex-direction: column;
         flex-wrap: wrap;
         position: relative;
-        right: 0px;
+        right: -100px;
         bottom: 0px;
     }
     #space-texts{
