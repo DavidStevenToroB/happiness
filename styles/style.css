@@ -283,11 +283,11 @@ hr{
 
 /* media */
 @media screen and (max-width: 480px) {
-    #mediabtn{
-        margin-left: 80px;
-    }
     .s-mediabtn{
         margin-left: 10px;
+    }
+    .text-p{
+        margin: 10px 0px;
     }
     /* header */
     header{
@@ -304,6 +304,7 @@ hr{
         padding: 0px;
         margin: 0px;
         margin-top: 20px;
+        justify-content: center;
     }
     #mediabtn{
         margin-left: 80px;
@@ -402,6 +403,9 @@ hr{
         right: 0px;
     }
     /* section4 */
+    .section4{
+        justify-content: center;
+    }
     .section4 img{
         max-width: 350px;
     }
@@ -413,17 +417,19 @@ hr{
     /* section6 */
     #section6 aside{
         flex-direction: column;
+        justify-content: center;
     }
     /* section7 */
     #section7{
         padding: 0px 10px;
     }
     #div7{
-        padding: 70px 20px;
+        padding: 70px 10px;
         height: 500px;
         width: 312px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         font-family: "Open Sans";
         color: white;
         background-color: black;
@@ -439,6 +445,7 @@ hr{
     #s7{
         color: #F5CB00;
         font-size: 70px;
+        width: 330px;
     }
     /* section8 */
 }
